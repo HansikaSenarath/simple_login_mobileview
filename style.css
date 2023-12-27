@@ -1,0 +1,36 @@
+
+
+.text{
+    font-size: 25px;
+    color: blueviolet;
+    text-align: center;
+    
+    
+}
+
+@media only screen and(max-width:400px){
+    .text {
+        visibility: collapse;
+    }
+}
+
+.text-area {
+    width: 250px; /* Adjust the width to your desired size */
+    height: 250px; /* Set the same value as the width to create a square */
+    background-color: rgb(164, 164, 206);
+    color: white; /* Set text color to make it visible on the blue background */
+    padding: 20px; /* Optional: Add padding for content inside the text area */
+    margin-left: auto;
+    margin-right: auto;
+  
+   
+   
+}
+.text-area h2{
+    font-size: 14px;
+}
+
+.logging button{
+    margin-top: 25px;
+    
+}
